@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { experienceData } from '../data/resumeData';
-import { Briefcase, Calendar } from 'lucide-react';
+import {  Calendar } from 'lucide-react';
 
 const Experience: React.FC = () => {
   const [ref, inView] = useInView({

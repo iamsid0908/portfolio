@@ -1,5 +1,4 @@
 import { Experience, Project, Skill, NavLink, SocialLink } from "../types";
-import { Github, Linkedin, Mail, Phone, Code2 } from "lucide-react";
 
 export const navLinks: NavLink[] = [
   { name: "Home", href: "#home" },
